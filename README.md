@@ -1,5 +1,7 @@
 # dockerfile-jenkins-slave-ubuntu-trusty-build-deb
 
+[![Build Status](https://travis-ci.org/infOpen/dockerfile-jenkins-slave-ubuntu-trusty-build-deb.svg?branch=master)](https://travis-ci.org/infOpen/dockerfile-jenkins-slave-ubuntu-trusty-build-deb)
+
 Dockerfile used to build a base jenkins slave image used to build ubuntu packages
 
 ## Warning
