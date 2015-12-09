@@ -36,7 +36,8 @@ describe 'Dockerfile' do
         expect(port(22)).to be_listening.with('tcp')
     end
 
-    it 'install openjdk-7-jdk package' do
+    it 'install base packages package' do
+        expect(package('git')).to be_installed
         expect(package('openjdk-7-jdk')).to be_installed
     end
 
