@@ -1,4 +1,4 @@
-FROM infopen/jenkins-slave-ubuntu-trusty:0.1.0
+FROM infopen/jenkins-slave-ubuntu-trusty:0.2.0
 MAINTAINER Alexandre Chaussier <a.chaussier@infopen.pro>
 
 # Install packages to build deb packages
